@@ -81,7 +81,6 @@ const LoginForm: React.FC = () => {
                         backgroundColor: message.type === 'success' ? 'var(--success-bg)' : 'var(--error-bg)',
                         color: message.type === 'success' ? 'var(--success-text)' : 'var(--error-text)',
                         border: '1px solid currentColor',
-                        borderOpacity: 0.2,
                         borderRadius: '12px',
                         fontSize: '14px',
                         fontWeight: 500,
