@@ -1,7 +1,10 @@
+import LoginForm from './components/LoginForm'
+
 function App() {
   return (
-    <div>
-      <h1>Selenium TP2</h1>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>React Selenium TP</h1>
+      <LoginForm />
     </div>
   )
 }
