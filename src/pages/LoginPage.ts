@@ -13,7 +13,7 @@ const SELECTORS = {
 // Factory function instead of Class
 export const createLoginPage = (driver: WebDriver) => ({
     navigate: async (): Promise<void> => {
-        await driver.get('http://localhost:5174');
+        await driver.get('http://localhost:5173');
     },
 
     login: async (user: string, pass: string): Promise<void> => {
